@@ -210,3 +210,33 @@ html, body {
     margin-top: 5px;
     text-shadow: 1px 1px 1px rgba(30,30,30,0.1);
 }
+.pro_media {
+
+}
+.tab-content {
+    position: relative;
+    height: 35em;
+    padding-left: 5%;
+    background: url(http://placehold.it/650x350);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pro_imgs {
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    border: 2px solid rgba(50,50,50,0.8);
+}
+#unit {
+    position: absolute;
+    top: 0;
+}
+#goal {
+    position: absolute;
+    top: 10em;
+}
+#local {
+    position: absolute;
+    top: 20em;
+}

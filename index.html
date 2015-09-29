@@ -103,9 +103,9 @@
                         <h3 class="section_title">彈性的揪團表單</h3>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 pros_content">
+                        <div class="col-md-6 pro_content">
                             <div id="pro_tabs">
-                                <div class="pro_tabs_outline">
+                                <div class="pro_tabs_outline active" href="#unit" aria-controls="unit" role="tab" data-toggle="tab">
                                     <h4>揪團單位</h4>
                                     <p>
                                         <span>YOGO的揪團表單包含了許多常見的單位：新台幣、個、本、人…</span>
@@ -114,7 +114,7 @@
                                 </div>
                             </div>
                             <div id="pro_tabs">
-                                <div class="pro_tabs_outline">
+                                <div class="pro_tabs_outline" href="#goal" aria-controls="goal" role="tab" data-toggle="tab">
                                     <h4>揪團目標</h4>
                                     <p>
                                         <span>YOGO的揪團表單包含了許多常見的單位：新台幣、個、本、人…</span>
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                             <div id="pro_tabs">
-                                <div class="pro_tabs_outline">
+                                <div class="pro_tabs_outline" href="#local" aria-controls="local" role="tab" data-toggle="tab">
                                     <h4>在地特色</h4>
                                     <p>
                                         <span>YOGO的揪團表單包含了許多常見的單位：新台幣、個、本、人…</span>
@@ -132,13 +132,25 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6 pros_media"></div>
+                        <div class="col-md-6 pro_media">
+                            <div class="tab-content">
+                              <div role="tabpanel" class="tab-pane fade in active" id="unit">
+                                  <img src="" class="pro_imgs unit_img">
+                              </div>
+                              <div role="tabpanel" class="tab-pane fade" id="goal">
+                                  <img src="" class="pro_imgs goal_img">
+                              </div>
+                              <div role="tabpanel" class="tab-pane fade" id="local">
+                                  <img src="" class="pro_imgs local_img">
+                              </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <script>
-        $('#yogo_btn_one').popover('show')
+        $('#yogo_btn_one').popover('hidden')
         </script>
         <script>
         $('#yogo_btn_two').popover('hidden')
