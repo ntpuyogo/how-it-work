@@ -68,7 +68,7 @@ html, body {
     height: 25em;
 }
 #header_left {
-    padding: 0 !important;
+    padding: 2% !important;
     text-align: center;
 }
 #header_right > article > h3 {
