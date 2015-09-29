@@ -64,6 +64,9 @@ html, body {
 }
 /*************************************************************************************【Header style】/
 /*basic style*/
+#header_wrapper {
+    margin-bottom: 7%;
+}
 #header_left, #header_right {
     height: 25em;
 }
@@ -126,4 +129,51 @@ html, body {
 @-o-keyframes aninateRight{ 
     from { opacity:0; left: -100px; }
     to { opacity: 1; left: 0; }
+}
+
+
+
+
+/*************************************************************************************【Steps style】/
+/*step style*/
+#steps {
+    margin-bottom: 5%;
+}
+.title_wrapper {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.title_wrapper > img {
+    margin-left: -15px;
+    margin-bottom: -10px;
+}
+.steps_img {
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 3px;
+}
+.img_detail {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.img_detail > h4 {
+    
+}
+.img_detail > p {
+
+}
+
+.yogo_btn {
+    border: 1px solid rgba(50,50,50,0.1);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
+    overflow: hidden; 
+    cursor: pointer;     
 }

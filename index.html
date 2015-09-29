@@ -23,6 +23,17 @@
 
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <!-- font awesome CDN -->
+
+        <script>
+        $('#yogo_btn_one').popover('hidden')
+        </script>
+        <script>
+        $('#yogo_btn_two').popover('hidden')
+        </script>
+        <script>
+        $('#yogo_btn_three').popover('hidden')
+        </script>
+
     </head>
     <body>
         <div class="container-fluid" id="wrapper">
@@ -63,10 +74,37 @@
                     </div>
                 </div>
                 <div id="steps" class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4"></div>
+                    <div class="container">
+                        <div class="title_wrapper">
+                            <img src="http://i.imgur.com/lsICe2F.jpg">
+                            <h3 class="section_title">體驗YOGO</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="http://placehold.it/250x200" class="img-responsive steps_img">
+                                <div class="img_detail">
+                                    <h4>Step.1</h4>
+                                    <p>建立揪團</p>
+                                    <img src="http://i.imgur.com/FsqIhhC.png" id="yogo_btn_one" class="yogo_btn" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="http://placehold.it/250x200" class="img-responsive steps_img">
+                                <div class="img_detail">
+                                    <h4>Step.2</h4>
+                                    <p>招集團員</p>
+                                    <img src="http://i.imgur.com/FsqIhhC.png" id="yogo_btn_two" class="yogo_btn" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="http://placehold.it/250x200" class="img-responsive steps_img">
+                                <div class="img_detail">
+                                    <h4>Step.3</h4>
+                                    <p>揪團成功</p>
+                                    <img src="http://i.imgur.com/FsqIhhC.png" id="yogo_btn_three" class="yogo_btn" data-toggle="popover" data-placement="bottom" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+                                </div>
+                            </div>
+                        </div>       
                     </div>
                 </div>
             </div>
