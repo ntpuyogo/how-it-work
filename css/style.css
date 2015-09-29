@@ -153,6 +153,8 @@ html, body {
     width: 100%;
     margin-bottom: 2%;
     border-radius: 3px;
+    border: 1px solid rgba(30,30,30,0.1);
+    box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
 }
 .img_detail {
     margin: 0 auto;
@@ -160,7 +162,8 @@ html, body {
 }
 
 .img_detail > h4 {
-    
+    font-weight: 500;
+    font-size: 1.5em;
 }
 .img_detail > p {
 
@@ -175,7 +178,8 @@ html, body {
     z-index: 999;
     box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
     overflow: hidden; 
-    cursor: pointer;     
+    cursor: pointer;
+    margin-bottom: 6%;  
 }
 
 
@@ -183,8 +187,13 @@ html, body {
 
 /*************************************************************************************【Pors style】/
 /*pros style*/
+#pro {
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid rgba(50,50,50,0.1);
+}
 #pro_tabs {
-    padding-left: 40%;
+    padding-left: 20%;
     margin-top: -2%;
 }
 .pro_tabs_outline {
@@ -217,7 +226,7 @@ html, body {
     position: relative;
     height: 35em;
     padding-left: 5%;
-    background: url(http://placehold.it/650x350);
+    background: url(http://i.imgur.com/TI1wKhH.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -234,7 +243,8 @@ html, body {
 }
 #goal {
     position: absolute;
-    top: 10em;
+    top: 15em;
+    left: 30em;
 }
 #local {
     position: absolute;
