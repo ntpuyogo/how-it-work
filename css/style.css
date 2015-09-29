@@ -1,0 +1,129 @@
+/*************************************************************************************【Basic style】/
+/*Basic style*/
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden; /*Fix header img overflow*/
+    font-family: Meiryo, "Meiryo UI", "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif !important;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*************************************************************************************【Nav style】/
+/*Nav style*/
+#nav {
+    padding: 0;
+    border-bottom: 1px solid rgba(50,50,50,0.05);
+    padding-left: 2em;
+    padding-right: 4em;
+    position: relative;
+}
+#nav > .row {
+    margin: 0;
+}
+.navLogo, .nav_pages {
+    vertical-align: top;
+}
+.nav_logo {
+    cursor: pointer;
+}
+.navUl {
+    padding: 0;
+    margin: 0;
+}
+.navUl > a {
+    color: rgba(130,133,135,1);
+    float: right;
+}
+.navUl > a:hover {
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+}
+.navLi {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Open Sans",​arial,​sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    color:rgb(255,​ 255,​ 255);
+    text-transform: capitalize;
+    text-decoration: none;  
+    line-height: 20px;
+    padding-top: 35px;
+    padding-right: 20px;
+    padding-bottom: 35px;
+    padding-left: 20px;
+}
+.navLi:hover {
+    background-color: rgba(118,204,30,1);
+}
+/*************************************************************************************【Header style】/
+/*basic style*/
+#header_left, #header_right {
+    height: 25em;
+}
+#header_left {
+    padding: 0 !important;
+    text-align: center;
+}
+#header_right > article > h3 {
+    display: block;
+    padding-left: 5%;
+    padding-top: 10%;
+    font-size: 2.2em;
+}
+#header_right > article > p > span {
+    display: inline-block;
+    font-size: 1.1em;
+    margin-top: 0.8%;
+    padding-left: 5%;
+}
+/*animation style*/
+.fade_in_left {
+    animation: animateLeft 2s;
+    -moz-animation: animateLeft 2s; 
+    -webkit-animation: animateLeft 1s; 
+}
+.fade_in_right {
+    animation: animateRight 1s;
+    -moz-animation: animateRight 1s; 
+    -webkit-animation: animateRight 1s; 
+    -o-animation: animateRight 1s; 
+}
+@keyframes animateLeft {
+    from { opacity:0; left: -100px; } 
+    to { opacity:1; left: 0; }
+}
+@-moz-keyframes animateLeft { 
+    from { opacity:0; right: -100px; }
+    to {  opacity:1; right: 0; }
+}
+@-webkit-keyframes animateLeft { 
+    from { opacity: 0; right: -100px; }
+    to { opacity:1; right: 0; }
+}
+@-o-keyframes aninateLeft{ 
+    from { opacity:0; right: -100px; }
+    to { opacity: 1; right: 0; }
+}
+@keyframes animateRight {
+    from { opacity:0; left: -100px; } 
+    to { opacity:1; left: 0; }
+}
+@-moz-keyframes animateRight {
+    from { opacity:0; left: -100px; }
+    to {  opacity:1; left: 0; }
+}
+@-webkit-keyframes animateRight {
+    from { opacity: 0; left: -100px; }
+    to { opacity:1; left: 0; }
+}
+@-o-keyframes aninateRight{ 
+    from { opacity:0; left: -100px; }
+    to { opacity: 1; left: 0; }
+}
