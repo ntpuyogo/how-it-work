@@ -74,6 +74,13 @@ html, body {
     padding: 2% !important;
     text-align: center;
 }
+#header_right {
+    padding-left: 6%;
+}
+#header_left > .header_img {
+    width: calc(1785px*2.5/10);
+    height: calc(1366px*2.5/10);
+}
 #header_right > article > h3 {
     display: block;
     padding-left: 5%;
