@@ -89,7 +89,7 @@ html, body {
 }
 #header_right > article > p > span {
     display: inline-block;
-    font-size: 1em;
+    font-size: 1.1em;
     margin-top: 0.8%;
     padding-left: 5%;
 }
@@ -288,11 +288,11 @@ html, body {
     text-align: center;
 }
 .get_wrapper {
-    height: 7em;
+    min-height: 7em;
     border: 2px solid rgba(50,50,50,0.3);
     border-radius: 5px;
     margin-bottom: 5em;
-    text-align: left;
+    text-align: center;
     padding: 3%;
 }
 .project_btn {
@@ -300,8 +300,9 @@ html, body {
     color: white;
     border-radius: 3px;
     font-weight: 500;
-    padding: 12% 15%;
-    margin: auto auto;
+    width: 8em;
+    height: 5em;
+    padding: 1em 3em;
     line-height: 50px;
 }
 .project_btn:hover {
