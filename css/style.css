@@ -159,9 +159,6 @@ html, body {
 .steps_img {
     width: 100%;
     margin-bottom: 2%;
-    border-radius: 3px;
-    border: 1px solid rgba(30,30,30,0.1);
-    box-shadow: 1px 1px 1px rgba(50,50,50,0.1);
 }
 .img_detail {
     margin: 0 auto;
