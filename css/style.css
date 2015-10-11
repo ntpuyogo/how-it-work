@@ -66,6 +66,7 @@ html, body {
 /*basic style*/
 #header_wrapper {
     margin-bottom: 7%;
+    border-bottom: 1px solid rgba(50,50,50,0.1);
 }
 #header_left, #header_right {
     height: 25em;
@@ -76,10 +77,6 @@ html, body {
 }
 #header_right {
     padding-left: 6%;
-}
-#header_left > .header_img {
-    width: calc(1785px*2.5/10);
-    height: calc(1366px*2.5/10);
 }
 #header_right > article > h3 {
     display: block;
