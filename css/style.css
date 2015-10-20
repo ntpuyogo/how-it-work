@@ -172,7 +172,7 @@ html, body {
 
 }
 .yogo_btn {
-    border: 1px solid rgba(50,50,50,0.1);
+    border: 2px solid rgba(50,50,50,0.4) !important;
     border-radius: 50%;
     background-color: white;
     z-index: 999;
@@ -184,11 +184,11 @@ html, body {
     cursor: pointer;
 
 }
-.hint_wrapper {
-    -webkit-animation: pulse 3s; /* Safari 4+ */
-    -moz-animation:    pulse 3s; /* Fx 5+ */
-    -o-animation:      pulse 3s; /* Opera 12+ */
-    animation:         pulse 3s; /* IE 10+, Fx 29+ */
+/*.hint_wrapper {
+    -webkit-animation: pulse 3s; 
+    -moz-animation:    pulse 3s; 
+    -o-animation:      pulse 3s; 
+    animation:         pulse 3s; 
     animation-iteration-count: infinite;
     cursor: pointer;
 }
@@ -204,7 +204,7 @@ html, body {
   80% { transform: scaleX(1.5) scaleY(1.5); }
   90% { transform: scaleX(0.85) scaleY(0.85); }
   100% { transform: scaleX(1.5) scaleY(1.5); }
-}
+}*/
 
 
 
