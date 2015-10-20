@@ -181,6 +181,14 @@ html, body {
     margin-top: -10px;
     cursor: pointer;
 }
+.yogo_btn:before {
+    content: "1";
+    background: rgba(254,95,85,1);
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    line-height: 25px;
+}
 /*.hint_wrapper {
     -webkit-animation: pulse 3s; 
     -moz-animation:    pulse 3s; 
