@@ -185,22 +185,22 @@ html, body {
 
 }
 .hint_wrapper {
-    -webkit-animation: pulse 1.5s; /* Safari 4+ */
-    -moz-animation:    pulse 1.5s; /* Fx 5+ */
-    -o-animation:      pulse 1.5s; /* Opera 12+ */
-    animation:         pulse 1.5s; /* IE 10+, Fx 29+ */
+    -webkit-animation: pulse 3s; /* Safari 4+ */
+    -moz-animation:    pulse 3s; /* Fx 5+ */
+    -o-animation:      pulse 3s; /* Opera 12+ */
+    animation:         pulse 3s; /* IE 10+, Fx 29+ */
 }
 @keyframes pulse {
   0% { transform: scaleX(1) scaleY(1); }
-  10% { transform: scaleX(0.85) scaleY( 5); }
+  10% { transform: scaleX(0.85) scaleY(0.85); }
   20% { transform: scaleX(1) scaleY(1); }
-  30% { transform: scaleX(0.85) scaleY( 5); }
+  30% { transform: scaleX(0.85) scaleY(0.85); }
   40% { transform: scaleX(1) scaleY(1); }
-  50% { transform: scaleX(0.85) scaleY( 5); }
+  50% { transform: scaleX(0.85) scaleY(0.85); }
   60% { transform: scaleX(1) scaleY(1); }
-  70% { transform: scaleX(0.85) scaleY( 5); }
+  70% { transform: scaleX(0.85) scaleY(0.85); }
   80% { transform: scaleX(1) scaleY(1); }
-  90% { transform: scaleX(0.85) scaleY( 5); }
+  90% { transform: scaleX(0.85) scaleY(0.85); }
   100% { transform: scaleX(1) scaleY(1); }
 }
 
