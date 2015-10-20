@@ -190,6 +190,7 @@ html, body {
     -o-animation:      pulse 3s; /* Opera 12+ */
     animation:         pulse 3s; /* IE 10+, Fx 29+ */
     animation-iteration-count: infinite;
+    cursor: pointer;
 }
 @keyframes pulse {
   0% { transform: scaleX(1.5) scaleY(1.5); }
