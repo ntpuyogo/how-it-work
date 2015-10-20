@@ -172,11 +172,9 @@ html, body {
 
 }
 .yogo_btn {
-    border: 2px solid rgba(118,204,30,1) !important;
-    border-radius: 50%;
     background-color: white;
     z-index: 999;
-    box-shadow: 1px 1px 2px rgba(50,50,50,0.1);
+    box-shadow: 1px 1px 10px rgba(50,50,50,1) !important;
     overflow: hidden; 
     cursor: pointer;
     margin-bottom: 6%;  
