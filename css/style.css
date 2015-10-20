@@ -184,27 +184,27 @@ html, body {
     margin-bottom: 6%;  
     margin-top: -10px;
     cursor: pointer;
-/*    -webkit-animation: bigger 1.5s; /* Safari 4+ */
+    -webkit-animation: bigger 1.5s; /* Safari 4+ */
     -moz-animation:    bigger 1.5s; /* Fx 5+ */
     -o-animation:      bigger 1.5s; /* Opera 12+ */
-    animation:         bigger 1.5s; /* IE 10+, Fx 29+ */*/
+    animation:         bigger 1.5s; /* IE 10+, Fx 29+ */
 }
-/*@-webkit-keyframes bigger {
-    0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
-    100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
+@-webkit-keyframes bigger {
+    0% {width: 40px !important; height: 40px !important; color: rgba(50,50,50,0.5); }
+    100% {width: 60px !important; height: 60px !important; color: rgba(50,50,50,0.9);}
 }
 @-moz-keyframes bigger {
-    0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
-    100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
+    0% {width: 40px !important; height: 40px !important; color: rgba(50,50,50,0.5); }
+    100% {width: 60px !important; height: 60px !important; color: rgba(50,50,50,0.9);}
 }
 @-o-keyframes bigger {
-    0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
-    100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
+    0% {width: 40px !important; height: 40px !important; color: rgba(50,50,50,0.5); }
+    100% {width: 60px !important; height: 60px !important; color: rgba(50,50,50,0.9);}
 }
 @keyframes bigger {
     0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
     100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
-}*/
+}
 
 
 
