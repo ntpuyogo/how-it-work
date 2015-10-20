@@ -94,13 +94,13 @@ html, body {
 .fade_in_left {
     animation: animateLeft 2s;
     -moz-animation: animateLeft 2s; 
-    -webkit-animation: animateLeft 1s; 
+    -webkit-animation: animateLeft 2s; 
 }
 .fade_in_right {
-    animation: animateRight 1s;
-    -moz-animation: animateRight 1s; 
-    -webkit-animation: animateRight 1s; 
-    -o-animation: animateRight 1s; 
+    animation: animateRight 1.5s;
+    -moz-animation: animateRight 1.5s; 
+    -webkit-animation: animateRight 1.5s; 
+    -o-animation: animateRight 1.5s; 
 }
 @keyframes animateLeft {
     from { opacity:0; left: -100px; } 
@@ -184,12 +184,12 @@ html, body {
     margin-bottom: 6%;  
     margin-top: -10px;
     cursor: pointer;
-    -webkit-animation: bigger 1.5s; /* Safari 4+ */
+/*    -webkit-animation: bigger 1.5s; /* Safari 4+ */
     -moz-animation:    bigger 1.5s; /* Fx 5+ */
     -o-animation:      bigger 1.5s; /* Opera 12+ */
-    animation:         bigger 1.5s; /* IE 10+, Fx 29+ */
+    animation:         bigger 1.5s; /* IE 10+, Fx 29+ */*/
 }
-@-webkit-keyframes bigger {
+/*@-webkit-keyframes bigger {
     0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
     100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
 }
@@ -204,7 +204,7 @@ html, body {
 @keyframes bigger {
     0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
     100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
-}
+}*/
 
 
 
