@@ -181,7 +181,7 @@ html, body {
     margin-top: -10px;
     cursor: pointer;
 }
-.yogo_btn:before {
+.img_detail > i:before {
     content: "1";
     background: rgba(254,95,85,1);
     width: 25px;
