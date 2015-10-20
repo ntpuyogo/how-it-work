@@ -172,7 +172,7 @@ html, body {
 
 }
 .yogo_btn {
-    border: 2px solid rgba(50,50,50,0.4) !important;
+    border: 2px solid rgba(118,204,30,1) !important;
     border-radius: 50%;
     background-color: white;
     z-index: 999;
@@ -182,7 +182,6 @@ html, body {
     margin-bottom: 6%;  
     margin-top: -10px;
     cursor: pointer;
-
 }
 /*.hint_wrapper {
     -webkit-animation: pulse 3s; 
