@@ -202,8 +202,8 @@ html, body {
     100% {width: 60px !important; height: 60px !important; color: rgba(50,50,50,0.9);}
 }
 @keyframes bigger {
-    0% {width: 40px; height: 40px; color: rgba(50,50,50,0.5); }
-    100% {width: 60px; height: 60px; color: rgba(50,50,50,0.9);}
+    0% {width: 40px !important; height: 40px !important; color: rgba(50,50,50,0.5); }
+    100% {width: 60px !important; height: 60px !important; color: rgba(50,50,50,0.9);}
 }
 
 
